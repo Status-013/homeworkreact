@@ -22,7 +22,7 @@
 .chats {
   overflow-y: auto;
   width: 20%;
-  background-color: #a2d6a6;
+  background-color: #17212b;
   border-right: 1px solid #000;
 }
 
@@ -31,16 +31,16 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  background-color: #80b2f8;
+  background-color: #0e1621;
 }
 
-.messages>div:nth-child(1) {
+.messages > div:nth-child(1) {
   flex-grow: 1;
   overflow-y: auto;
   padding: 15px 10px;
 }
 
-.messages>div:nth-child(2) {
+.messages > div:nth-child(2) {
   height: 50px;
   flex: none;
   background-color: #17212b;
